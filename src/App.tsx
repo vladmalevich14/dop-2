@@ -23,7 +23,7 @@ function App() {
 
     return (
         <div className="App">
-            <Button name={'CLEAN DATA'} callBack={GetMeData}/>
+            <Button name={'CLEAN DATA!'} callBack={GetMeData}/>
             <ul>
                 {data.map(el => {
                     return (
